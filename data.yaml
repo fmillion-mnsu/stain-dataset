@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 1
+names: ['stain']
+
+roboflow:
+  workspace: college-wtlzk
+  project: fabric-stain-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/college-wtlzk/fabric-stain-detection/dataset/1
